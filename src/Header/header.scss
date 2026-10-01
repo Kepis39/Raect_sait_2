@@ -1,0 +1,70 @@
+header{
+width: 98vw;
+height: 8vh;
+display: flex;
+justify-content: center;
+align-items: center;
+nav{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ul{
+        width: 35vw;
+        display: flex;
+       justify-content: space-around; 
+       align-items: center;
+       li{
+        list-style: none;
+      a{
+        font-size: 16px;
+        color: #311F09;
+       text-decoration: none;
+       
+      }
+      a:hover{
+        color: #FF8A00;
+       }
+       }     
+    }
+    .left_container{
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        gap: 3vh;
+        align-items: center;
+        .bukva{
+            width: 45px;
+            height: 45px;
+            border-radius: 3vh;
+            font-size: 19px;
+            background-color: #FF8A00;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slovo{
+            font-size: 16px;
+            color: #311F09;
+            span{
+                color: #FF8A00;
+            }
+        }
+    }
+    .right_container{
+        width: 13vw;
+        display: flex;
+        justify-content: space-around;
+        button{
+            width: 112px;
+            height: 50px;
+            background-color: #3FA72F;
+            border: none;
+            border-radius: 3vh;
+            color: white;
+        }
+    }
+}
+}

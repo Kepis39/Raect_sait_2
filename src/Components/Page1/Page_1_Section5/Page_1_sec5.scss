@@ -1,0 +1,95 @@
+.Page_1_sect5{
+   width: 99.2vw;
+    height: 130vh;
+    .big_container{
+        width: 93vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text{
+            height: 30vh;
+            font-size: 60px;
+            color: #311F09;
+        }
+        .povara{
+            width: 70vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .povar_1{
+                img{
+                    border-radius: 4vh;
+                background-color: #D6D6D6;
+                }
+                p{
+                     display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    line-height: 3;
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #311F09;
+                    span{
+                        color: #A08D76;
+                        font-weight:1;
+                    }
+                }
+            }
+            .povar_2{
+                 img{
+                    border-radius: 4vh;
+                 background-color: #FFEED6;
+                 }
+                  p{
+                     display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    line-height: 3;
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #311F09;
+                    span{
+                        color: #A08D76;
+                        font-weight:1;
+                    }
+                }
+            }
+            .povar_3{
+                 img{
+                border-radius: 4vh;
+                 background-color: #EFE6E2;
+                 }
+                  p{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    line-height: 3;
+                    color: #311F09;
+                    font-size: 25px;
+                    font-weight: 600;
+                    span{
+                        color: #A08D76;
+                        font-weight:1;
+                    }
+                }
+            }
+        }
+        .knopka{
+            width: 30vw;
+            height: 22vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                width: 235px;
+                height: 64px;
+                background-color: #FF8A00;
+                border-radius: 4vh;
+                border: none;
+                color: white;
+                font-size: 22px;
+            }
+        }
+    }
+}

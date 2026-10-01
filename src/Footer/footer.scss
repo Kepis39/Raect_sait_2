@@ -1,0 +1,97 @@
+footer{
+    width: 99.2vw;
+    height: 63vh;
+    background: #311F09;
+    .big_container{
+      width: 96vw;
+       height: 45vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      .left_container{
+        width:20.9vw;
+        height: 16vh;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        gap: 2vh;
+        .text{
+         width: 10vw;
+        display: flex;
+        justify-content: center;
+        gap: 3vh;
+        align-items: center;
+          .bukva{
+            width: 45px;
+            height: 45px;
+            border-radius: 3vh;
+            font-size: 19px;
+            background-color: #FF8A00;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slovo{
+            font-size: 16px;
+            color: white;
+            span{
+                color: #FF8A00;
+            }
+        }
+        }
+        .text_2{
+          width: 11.8vw;
+          display: flex;
+          justify-content: flex-end;
+          p{
+            font-size: 16px;
+           line-height: 2;
+            color: #E3E2E0;
+          }
+        }
+        .socseti{
+          width: 20vw;
+          display: flex;
+          justify-content: space-evenly;
+          align-items:center;
+          img{
+            width: 55px;
+          }
+        }
+      }
+      .colonki{
+        width: 40vw;
+        display: flex;
+       justify-content: space-evenly;
+       position: relative;
+       top: 4vh;
+        .colonka{
+          ul{
+            display: grid;
+           
+            gap: 2vh;
+           li{
+            align-items: end;
+            list-style: none;
+            color: #E3E2E0;
+            span{
+               line-height: 2.3;
+              color: #FF8A00;
+              font-size: 20px;
+            }
+           }
+          }
+        }
+      }
+    } 
+     .slovo_2{
+     display: flex;
+     justify-content: center;
+     align-items: end;
+     p{
+      font-size: 20px;
+      color: #E3E2E0;
+     }
+      }
+}
