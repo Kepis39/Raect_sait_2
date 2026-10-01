@@ -25,7 +25,7 @@ import Rectangletwo from './assets/Rectangletwo.png'
 import Ellipse from './assets/Ellipse.png'
 import User from './assets/User.png'
 import unsplash from './assets/unsplash.png'
-
+import Round from './assets/Round.png'
 
 
 
@@ -55,5 +55,6 @@ export const Photo ={
     Rectangletwo:Rectangletwo,
     Ellipse:Ellipse,
     User:User,
-    unsplash:unsplash
+    unsplash:unsplash,
+    Round:Round
 }
