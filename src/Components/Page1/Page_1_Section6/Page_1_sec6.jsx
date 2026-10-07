@@ -19,14 +19,80 @@ return(
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
-                initialSlide={0}
+                initialSlide={4}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
             <SwiperSlide>
                  
             </SwiperSlide>
-            <SwiperSlide><div class="foto_container">
+
+
+            <SwiperSlide>
+                <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipseeureu}/>
+            </div>
+            <div class="text_2">
+               <p>
+                Starla Virgoun
+                <span>Financial advisor</span>
+               </p>
+            </div>
+           </div>
+           <div class="text_3">
+             <div class="kovichka_1"><h2>“</h2></div>
+             <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                 elit. Facilisis ultricies at eleifend proin. Congue nibh 
+                 nulla malesuada ultricies nec quam </p></div>
+             <div class="kovichka_2"><h2>”</h2></div>
+           </div>
+           </SwiperSlide>
+            <SwiperSlide> <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipsryer}/>
+            </div>
+            <div class="text_2">
+               <p>
+                Starla Virgoun
+                <span>Financial advisor</span>
+               </p>
+            </div>
+           </div>
+           <div class="text_3">
+             <div class="kovichka_1"><h2>“</h2></div>
+             <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                 elit. Facilisis ultricies at eleifend proin. Congue nibh 
+                 nulla malesuada ultricies nec quam </p></div>
+             <div class="kovichka_2"><h2>”</h2></div>
+           </div>
+           </SwiperSlide>
+
+
+           <SwiperSlide>
+            <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipstete}/>
+            </div>
+            <div class="text_2">
+               <p>
+                Starla Virgoun
+                <span>Financial advisor</span>
+               </p>
+            </div>
+           </div>
+           <div class="text_3">
+             <div class="kovichka_1"><h2>“</h2></div>
+             <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                 elit. Facilisis ultricies at eleifend proin. Congue nibh 
+                 nulla malesuada ultricies nec quam </p></div>
+             <div class="kovichka_2"><h2>”</h2></div>
+           </div>
+           </SwiperSlide>
+
+
+            <SwiperSlide>
+                <div class="foto_container">
             <div class="foto">
             <img src={Photo.Ellipse}/>
             </div>
@@ -37,20 +103,22 @@ return(
                </p>
             </div>
            </div>
-
            <div class="text_3">
              <div class="kovichka_1"><h2>“</h2></div>
              <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
                  elit. Facilisis ultricies at eleifend proin. Congue nibh 
                  nulla malesuada ultricies nec quam </p></div>
              <div class="kovichka_2"><h2>”</h2></div>
-           </div></SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide><div class="foto_container">
-            <div class="foto">
-            <img src={Photo.Ellipse}/>
+           </div>
+           </SwiperSlide>
+
+
+
+            <SwiperSlide>
+                <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipseyer}/>
             </div>
-            
             <div class="text_2">
                <p>
                 Starla Virgoun
@@ -58,17 +126,63 @@ return(
                </p>
             </div>
            </div>
-
            <div class="text_3">
              <div class="kovichka_1"><h2>“</h2></div>
              <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
                  elit. Facilisis ultricies at eleifend proin. Congue nibh 
                  nulla malesuada ultricies nec quam </p></div>
              <div class="kovichka_2"><h2>”</h2></div>
-           </div></SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
+           </div>
+           </SwiperSlide>
+
+
+
+            <SwiperSlide>  
+                <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipseer}/>
+            </div>
+            <div class="text_2">
+               <p>
+                Starla Virgoun
+                <span>Financial advisor</span>
+               </p>
+            </div>
+           </div>
+           <div class="text_3">
+             <div class="kovichka_1"><h2>“</h2></div>
+             <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                 elit. Facilisis ultricies at eleifend proin. Congue nibh 
+                 nulla malesuada ultricies nec quam </p></div>
+             <div class="kovichka_2"><h2>”</h2></div>
+           </div>
+           </SwiperSlide>
+
+
+           <SwiperSlide>  
+                <div class="foto_container">
+            <div class="foto_2">
+            <img src={Photo.Ellipserueu}/>
+            </div>
+            <div class="text_2">
+               <p>
+                Starla Virgoun
+                <span>Financial advisor</span>
+               </p>
+            </div>
+           </div>
+           <div class="text_3">
+             <div class="kovichka_1"><h2>“</h2></div>
+             <div class="text_4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                 elit. Facilisis ultricies at eleifend proin. Congue nibh 
+                 nulla malesuada ultricies nec quam </p></div>
+             <div class="kovichka_2"><h2>”</h2></div>
+           </div>
+           </SwiperSlide>
         </Swiper>
+          
+
+
           
 
            <div class="users">
